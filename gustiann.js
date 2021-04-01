@@ -473,11 +473,11 @@ ahmad.on('group-participants-update', async (anu) => {
                 console.error(err)
             }
         }
-          
+
 // ANTI LINK GRUP
-               	       if (mesejAnti.includes("://chat.whatsapp.com/")){
+        if (mesejAnti.includes("://chat.whatsapp.com/")){
 		if (!isGroup) return
-		if (!isAntilink) return
+		if (!antilink.includes(from)) return
 		if (isGroupAdmins) return reply('karena kamu adalah admin group, bot tidak akan kick kamu')
 		ahmad.updatePresence(from, Presence.composing)
 		if (mesejAnti.includes("#izinadmin")) return reply("#izinadmin diterima")
@@ -4941,10 +4941,6 @@ break
 					}
 		} catch (e) {
 			console.log('Error : %s', color(e, 'red'))
+			console.log(e);
 		}
 	})
-
-//HARGAI PEMBUAT SCRIPT BOT INI
-
-//AHMAD & AHLAM TEAM
-//PLEASE AWAS KALO LU UBAH ANJENK 

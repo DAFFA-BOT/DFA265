@@ -83,7 +83,7 @@ exports.pc = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n│ *「 PENDAFTARAN USER 」*\n│\n│ *Terima kasih Telah Mendaftarkan*\n│ *Diri Anda Ke Dalam*\n│ *Database GUSTIAN BOT*\n│\n│ *Nama : ${namaUser}*\n│ *APi : wa.me/${sender.split("@")[0]}*\n│ *Umur : ${umurUser}*\n│ *Waktu Registrasi : ${time}*\n│ *SN : ${serialUser}*\n│ *Status : Terverifikasi*\n│\n│\n│ *Jangan Sampai Lupa Nomer Ini*\n│ *Suatu Saat Bakalan Berguna*\n│ *Tunggu Update BOT Versi Terbaru.*\n│\n│ *☑ Silahkan Ketik ${prefix}rules*\n│ *Untuk Melanjutkan Pengguna*\n╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n\n *「 GUSTIAN BOT 」*`
+	return`╭━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n│ *「 PENDAFTARAN USER 」*\n│\n│ *Terima kasih Telah Mendaftarkan*\n│ *Diri Anda Ke Dalam*\n│ *Database DAFFA BOT*\n│\n│ *Nama : ${namaUser}*\n│ *APi : wa.me/${sender.split("@")[0]}*\n│ *Umur : ${umurUser}*\n│ *Waktu Registrasi : ${time}*\n│ *SN : ${serialUser}*\n│ *Status : Terverifikasi*\n│\n│\n│ *Jangan Sampai Lupa Nomer Ini*\n│ *Suatu Saat Bakalan Berguna*\n│ *Tunggu Update BOT Versi Terbaru.*\n│\n│ *☑ Silahkan Ketik ${prefix}rules*\n│ *Untuk Melanjutkan Pengguna*\n╰━━━━━━━━━━━━┈ ❋ཻུ۪۪⸙\n\n *「 DAFFA BOT 」*`
 }
 
 exports.owneresce = (pushname) => {
